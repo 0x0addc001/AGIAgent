@@ -2,7 +2,7 @@
 
 **A generalist student distilled on-policy from vertical teachers.**
 
-Ten vertical agents sample, fail and repair inside their own domains. AGIAgent learns from all of
+Vertical agents sample, fail and repair inside their own domains. AGIAgent learns from all of
 them on its own trajectory (multi-teacher on-policy distillation, MOPD), so generalization is
 trained rather than hoped for.
 

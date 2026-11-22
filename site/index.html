@@ -153,10 +153,10 @@
         <h1 class="hero-title">
           <span data-en="Hi! I’m" data-zh="Hi！我是">Hi! I’m</span>
           <span class="hero-title-accent" data-en="Jialiang Li’s AGIAgent" data-zh="李嘉梁的 AGIAgent">Jialiang Li’s AGIAgent</span>
-          <span data-en="A Generalist Student of" data-zh="一个被十个垂直教师">A Generalist Student of</span>
-          <span class="hero-title-accent" data-en="Ten Vertical Teachers" data-zh="带出来的通用学生">Ten Vertical Teachers</span>
+          <span data-en="A Generalist Student of" data-zh="一个由垂直教师">A Generalist Student of</span>
+          <span class="hero-title-accent" data-en="Vertical Teachers" data-zh="带出来的通用学生">Vertical Teachers</span>
         </h1>
-        <p class="hero-subtitle" data-en="Ten vertical agents sample and fail inside their own domains. AGIAgent learns from all of them on its own trajectory, so generalization is trained rather than hoped for." data-zh="十个垂直 agent 在各自领域采样试错。AGIAgent 在自己的轨迹上向它们学习，所以泛化是被训练出来的，不是碰运气。">Ten vertical agents sample and fail inside their own domains. AGIAgent learns from all of them on its own trajectory, so generalization is trained rather than hoped for.</p>
+        <p class="hero-subtitle" data-en="Vertical agents sample and fail inside their own domains. AGIAgent learns from all of them on its own trajectory, so generalization is trained rather than hoped for." data-zh="垂直 agent 在各自领域采样试错。AGIAgent 在自己的轨迹上向它们学习，所以泛化是被训练出来的，不是碰运气。">Vertical agents sample and fail inside their own domains. AGIAgent learns from all of them on its own trajectory, so generalization is trained rather than hoped for.</p>
         <div class="hero-actions">
           <a class="action primary" href="https://github.com/0x0addc001/AGIAgent" target="_blank" rel="noreferrer">
             <svg class="github-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .7C5.7.7.7 5.7.7 12c0 5 3.3 9.2 7.8 10.7.6.1.8-.3.8-.6v-2.2c-3.2.7-3.9-1.4-3.9-1.4-.5-1.3-1.3-1.6-1.3-1.6-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1.1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.8-1.6-2.6-.3-5.3-1.3-5.3-5.8 0-1.3.5-2.3 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11 11 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.7.2 2.9.1 3.2.8.9 1.2 1.9 1.2 3.2 0 4.5-2.7 5.5-5.3 5.8.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6 4.5-1.5 7.8-5.7 7.8-10.7C23.3 5.7 18.3.7 12 .7z"/></svg><span>GitHub</span><span class="github-arrow" aria-hidden="true">↗</span>
@@ -179,7 +179,7 @@
         <article>
           <span>01</span>
           <h3 data-en="Teachers explore their own domain" data-zh="教师在各自领域试错">Teachers explore their own domain</h3>
-          <p data-en="Ten vertical agents sample, fail and repair inside their own environments, producing domain trajectories." data-zh="十个垂直 agent 在各自环境里采样、失败、修复，产出领域轨迹。">Ten vertical agents sample, fail and repair inside their own environments, producing domain trajectories.</p>
+          <p data-en="Vertical agents sample, fail and repair inside their own environments, producing domain trajectories." data-zh="垂直 agent 在各自环境里采样、失败、修复，产出领域轨迹。">Vertical agents sample, fail and repair inside their own environments, producing domain trajectories.</p>
         </article>
         <article>
           <span>02</span>
@@ -198,13 +198,13 @@
       <div class="section-head">
         <div>
           <h2 data-en="Mechanism" data-zh="机制">Mechanism</h2>
-          <p data-en="Ten teachers, one student, one shared backbone. Distillation is on-policy, weighted and budgeted — so generalization is trained rather than hoped for." data-zh="十个教师、一个学生、一个共享主干。蒸馏是在环的、加权的、有预算的——所以泛化是被训练出来的，不是碰运气。">Ten teachers, one student, one shared backbone. Distillation is on-policy, weighted and budgeted — so generalization is trained rather than hoped for.</p>
+          <p data-en="Many teachers, one student, one shared backbone. Distillation is on-policy, weighted and budgeted — so generalization is trained rather than hoped for." data-zh="多个教师、一个学生、一个共享主干。蒸馏是在环的、加权的、有预算的——所以泛化是被训练出来的，不是碰运气。">Many teachers, one student, one shared backbone. Distillation is on-policy, weighted and budgeted — so generalization is trained rather than hoped for.</p>
         </div>
       </div>
       <div class="stages">
         <article class="stage">
           <div class="stage-index">01 / TEACHERS</div>
-          <h3 data-en="Ten vertical teachers" data-zh="十个垂直教师">Ten vertical teachers</h3>
+          <h3 data-en="Vertical teacher pool" data-zh="垂直教师池">Vertical teacher pool</h3>
           <p data-en="Search, recommendation, advertising, support, coding, data, trading, medical, video, embodied." data-zh="搜索、推荐、广告、客服、编程、数据、交易、医疗、视频、具身。">Search, recommendation, advertising, support, coding, data, trading, medical, video, embodied.</p>
         </article>
         <article class="stage">
@@ -215,7 +215,7 @@
         <article class="stage">
           <div class="stage-index">03 / BACKBONE</div>
           <h3 data-en="Shared backbone" data-zh="共享主干">Shared backbone</h3>
-          <p data-en="One model holds common competence instead of ten disconnected specialists." data-zh="一个模型承载通用能力，而不是十个互不相通的专家。">One model holds common competence instead of ten disconnected specialists.</p>
+          <p data-en="One model holds common competence instead of a pile of disconnected specialists." data-zh="一个模型承载通用能力，而不是一堆互不相通的专家。">One model holds common competence instead of a pile of disconnected specialists.</p>
         </article>
         <article class="stage">
           <div class="stage-index">04 / ADAPTERS</div>
